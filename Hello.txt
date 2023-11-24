@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Class AutoTest
+=======
+Hello class
+>>>>>>> 450876c32578b92de04e77b6a62151e5de79ef21

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="org.selenium.automationtest.testsuite.TS_IM_QLCN_DuyetYeuCauTichDuyetTaiChinh"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.selenium.automationtest.testsuite.TS_IM_QLCN_DuyetYeuCauTichDuyetTaiChinh">
+        <methods>
+          <include name="TC_004_DuyetYeuCauTichDuyetTaiChinh_DL_CDT"/>
+          <include name="TC_001_DuyetYeuCauTichDuyetTaiChinh_TimKiem_XemChiTiet"/>
+          <include name="after"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.selenium.automationtest.testsuite.TS_IM_QLCN_DuyetYeuCauTichDuyetTaiChinh -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.selenium.automationtest.testsuite.TS_IM_QLCN_DuyetYeuCauTichDuyetTaiChinh">
+        <methods>
+          <include name="TC_004_DuyetYeuCauTichDuyetTaiChinh_DL_CDT"/>
+          <include name="TC_001_DuyetYeuCauTichDuyetTaiChinh_TimKiem_XemChiTiet"/>
+          <include name="TC_005_DuyetYeuCauTichDuyetTaiChinh_TuChoi"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="init"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.selenium.automationtest.testsuite.TS_IM_QLCN_DuyetYeuCauTichDuyetTaiChinh -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="org.selenium.automationtest.testsuite.TS_IM_QLCN_DuyetYeuCauTichDuyetTaiChinh">
+        <methods>
+          <include name="TC_004_DuyetYeuCauTichDuyetTaiChinh_DL_CDT"/>
+          <include name="TC_001_DuyetYeuCauTichDuyetTaiChinh_TimKiem_XemChiTiet"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="init"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.selenium.automationtest.testsuite.TS_IM_QLCN_DuyetYeuCauTichDuyetTaiChinh -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
