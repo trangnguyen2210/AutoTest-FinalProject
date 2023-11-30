@@ -14,7 +14,7 @@ public class Page_AddEvents {
     private WebElement signinButton;
 
     @FindBy(xpath = "//span[text()='Events']//parent::a//parent::li")
-    private WebElement eventsButton;
+    public  WebElement eventsButton;
     @FindBy(xpath = "//a[contains(text(),' Add event')]")
     private WebElement addEventButton;
     @FindBy(xpath = "//input[@id='title']")
