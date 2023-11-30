@@ -16,6 +16,7 @@ public class ProjectEvents_DisplayByMonthWeekDay_Team2 extends CommonBase {
         driver.get(CT_Rise.webURLRise);
         Page_AddEvents rise = new Page_AddEvents(driver);
         rise.LoginRise(CT_Rise.EmailAdmin,CT_Rise.Passtrue);
+        rise.eventsButton.click();
     }
 
     @Test(priority = 1)
